@@ -1,0 +1,238 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing:border-box ;
+  -moz-box-sizing: border-box;
+  box-sizing:border-box ;
+}
+  
+:root {
+  --main-color:#00c194 ;
+  --secondary-Color:#07c196 ;
+  --main-heading:#0e2e50;
+  --second-heading: #363534;
+  --hover-button: #00A376;
+  --main-text:#686868;
+  --second-text:#929292;
+  --border-color:#EAF7F4;
+  --section-background:#EAF7F4;
+  --section-padding: 100px;
+  --main-transition: 0.5s;
+}
+  
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1199px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Start Main Heading */
+.main-heading {
+  text-align: center;
+}
+
+.main-heading span {
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 0 -25px;
+  color: var(--main-color);
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.main-heading h3 {
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 90px;
+  margin: 0;
+  color: #dceeea;
+}
+
+.main-heading h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 36px;
+  color: var(--main-heading);
+  margin: -45px 0 0;
+}
+/* End Main Heading */
+/* End Global Rules */
+
+/* Start Pricing */
+.pricing {
+  padding-top: 70px;
+  padding-bottom: var(--section-padding);
+}
+
+.pricing .container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.pricing .plans {
+  border: 1px solid #E5E5E5;
+  border-radius: 6px;
+  transition: var(--main-transition);
+}
+
+.pricing .plans:hover {
+  transform: translateY(-15px);
+}
+
+.pricing .plans .head {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing .plans .head h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: #212121;
+  margin: 15px 0 10px;
+  padding: 0 20px;
+}
+
+.pricing .plans .head .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+.pricing .plans .head .price span {
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.pricing .plans .head .price span::before {
+  content: '/ month';
+  position: absolute;
+  top: 17px;
+  right: -65px;
+  color: #b2bbc5;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.pricing .plans .head p {
+  font-size: 15px;
+  color: #788593;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+.pricing .plans .features {
+  padding: 20px 30px;
+}
+
+.pricing .plans .features li {
+  padding: 10px;
+  font-size: 15px;
+  color: var(--main-text);
+}
+
+.pricing .plans .features i {
+  margin-right: 10px;
+}
+
+.pricing .plans .features .fa-circle-check.dark {
+  color: #ACB7C3;
+}
+
+.pricing .plans .features .fa-solid {
+  color: var(--main-color);
+}
+
+.pricing .plans .features a {
+  display: block;
+  background-color: var(--main-color);
+  padding: 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  margin: 20px auto 0;
+  text-align: center;
+  box-shadow: 0 14px 18px 0 rgb(0 0 0 / 15%);
+  transition: var(--main-transition);
+}
+
+.pricing .plans .features a:hover {
+  background-color: var(--hover-button);
+}
+
+.pricing .popular .head > span {
+  position: absolute;
+  top: 15px;
+  right: -45px;
+  padding: 15px 50px;
+  background-color: var(--main-color);
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: rotate(43deg);
+}
+/* End Pricing */
+
+/*Start Responsive */
+@media (max-width: 767px) {
+  .main-heading h3 {
+    font-size: 65px;
+  }
+}
+/*End Responsive */

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Property Grid</title>
+  <link rel="shortcut icon" href="images/home_hand_3-1.svg" />
+  <!-- Render All Elements Normally -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Font Awesome Library -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Main Templete File -->
+  <link rel="stylesheet" href="css/homlisti.css">
+  <!-- About Templete File -->
+  <link rel="stylesheet" href="css/about.css">
+  <!-- Property Grid Templete File -->
+  <link rel="stylesheet" href="css/property grid.css">
+  <!-- Single Property Templete File -->
+  <link rel="stylesheet" href="css/single-property.css">
+  <!-- Pricing Templete File -->
+  <link rel="stylesheet" href="css/pricing.css">
+  <!-- Blog Templete File -->
+  <link rel="stylesheet" href="css/blog.css">
+  <!-- Contact Templete File -->
+  <link rel="stylesheet" href="css/contact.css">
+  <!-- Animation Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Start Side Menu -->
+  <div class="side-menu">
+    <ul>
+      <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+      <li><a href="#"><i class="fa-solid fa-info"></i></a></li>
+      <li><a href="#"><i class="fa-solid fa-location-dot"></i></a></li>
+      <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+      <li><a href="#"><i class="fa-regular fa-image"></i></a></li>
+    </ul>
+  </div>
+  <!-- End Side Menu -->
+
+  <!-- Start Sub-header -->
+  <header>
+    <div class="sub-header">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" alt="" />
+        </a>
+        <nav>
+          <input type="checkbox" id="bar" />
+          <ul class="links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="property grid.html"
+                >Property<i class="fa-solid fa-angle-down"></i
+              ></a>
+              <!-- Start Megamenu -->
+              <div class="mega-menu">
+                <ul class="sub">
+                  <li><a href="property grid.html">Properties grid</a></li>
+                  <li>
+                    <a href="single-property.html">Single Property grid</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Megamenu -->
+            </li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-btn">
+          <div class="prop-btn">
+            <div class="icon">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+            <div class="text">
+              <a href="#">Add Property</a>
+            </div>
+          </div>
+          <div class="sign-in">
+            <i class="fa-regular fa-user"></i>
+          </div>
+          <label for="bar"><i class="fa-solid fa-bars"></i></label>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- End Sub-header -->
+
+  <!-- Start Breadcrumb -->
+  <div class="breadcrumb2">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <i class="fa-solid fa-angle-right"></i>
+      <span>Sky Pool Villa House</span>
+    </div>
+  </div>
+  <!-- End Breadcrumb -->
+
+  <!-- Start Badges -->
+  <div class="badges">
+    <div class="container">
+      <span>For Sell</span>
+      <span>Featured</span>
+    </div>
+  </div>
+  <!-- End Badges -->
+
+  <!-- Start Product heading -->
+  <div class="product-heading">
+    <div class="container">
+      <div class="left-content">
+        <h1>Sky Pool Villa House</h1>
+        <span><i class="fa-solid fa-location-dot"></i> Bodoc, Highway 1179, Louisiana / </span>
+        <span><i class="fa-regular fa-clock"></i> 2 months ago / </span>
+        <span><i class="fa-regular fa-eye"></i> Views: 300</span>
+      </div>
+      <div class="right-content">
+        <h4>$1,500 <span>(Fixed)</span></h4>
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-bug"></i></a></li>
+          <li><a href="#"><i class="fa-solid fa-share-nodes"></i></a></li>
+          <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a></li>
+          <li><a href="#"><i class="fa-solid fa-print"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End Product heading -->
+
+  <!-- Start Gallery -->
+  <div class="gallery">
+    <div class="container">
+      <div class="left-box">
+        <div class="image1">
+          <div class="overlay"></div>
+          <img src="images/mike_hussy-1170x640.jpg" alt="">
+        </div>
+      </div>
+      <div class="right-box">
+        <div class="image2">
+          <div class="overlay"></div>
+          <img src="images/mike_hussy3-1024x558.jpg" alt="">
+        </div>
+        <div class="images">
+          <div class="image3">
+            <div class="overlay"></div>
+            <img src="images/mike_hussy2-1024x558.jpg" alt="">
+          </div>
+          <div class="image4">
+            <div class="overlay"></div>
+            <img src="images/1ss-1-1024x558.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Gallery -->
+
+  <!-- start Area -->
+  <div class="area-wrap">
+    <div class="container">
+      <div class="left-section">
+        <div class="overview">
+          <h3>Overview</h3>
+          <ul class="row">
+            <li>
+              <div class="box">
+                <a href="#"><i class="fa-solid fa-tag"></i></a>
+                <div class="srv">
+                  <span>ID No</span>
+                  <span>17384</span>
+                </div>
+              </div>
+              <div class="box">
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+                <div class="srv">
+                  <span>Type</span>
+                  <span>Apartment</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="box">
+              <a href="#"><i class="fa-solid fa-square-parking"></i></a>
+              <div class="srv">
+                <span>Parking</span>
+                <span>Yes</span>
+              </div>
+            </div>
+            <div class="box">
+              <a href="#"><i class="fa-solid fa-bed"></i></a>
+              <div class="srv">
+                <span>Bedroom</span>
+                <span>2</span>
+              </div>
+            </div>
+            </li>
+            <li>
+              <div class="box">
+                <a href="#"><i class="fa-solid fa-shower"></i></a>
+                <div class="srv">
+                  <span>Bath</span>
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="box">
+                <a href="#"><i class="fa-solid fa-expand"></i></a>
+                <div class="srv">
+                  <span>Sqft</span>
+                  <span>50</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="box">
+                <a href="#"><i class="fa-brands fa-empire"></i></a>
+                <div class="srv">
+                  <span>Purpose</span>
+                  <span>For Sell</span>
+                </div>
+              </div>
+              <div class="box">
+                <a href="#"><i class="fa-regular fa-copy"></i></a>
+                <div class="srv">
+                  <span>Build Year</span>
+                  <span>2018</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="about">
+          <h3>About This Listing</h3>
+          <p>Our SecretIsland Boat Tour is Just for You</p>
+          <p>scrambled it to make a type specimen books survive d not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged It was popularised in the 1960s with the release of Letraset sheets containing Lorem</p>
+        </div>
+        <div class="features">
+          <h3>Features & Amenities</h3>
+          <div class="srv">
+            <span>TV Cable</span>
+            <span>Barbeque</span>
+            <span>Swimming Pool</span>
+            <span>Refrigerator</span>
+          </div>
+          <div class="srv">
+            <span>Laundry</span>
+            <span>Microwave</span>
+            <span>Outdoor Shower</span>
+            <span>Washer</span>
+          </div>
+        </div>
+        <div class="tour">
+          <h3>360° Virtual Tour</h3>
+          <iframe width="600" height="400" allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#config=https://pannellum.org/configs/multiresolution.json"></iframe>
+        </div>
+        <div class="score">
+          <h3>Walk Score</h3>
+          <div class="text">
+            <h4>Bodoc Highway 1179 Louisiana</h4>
+            <a class="active" href="#">scores</a>
+            <a href="#">nearby</a>
+          </div>
+          <div class="badge">
+            <img src="images/0.svg" alt="">
+            <div class="info">
+              <span>Car-Dependent</span>
+              <span>Almost all errands require a car</span>
+            </div>
+          </div>
+          <div class="badge">
+            <img src="images/25.svg" alt="">
+            <div class="info">
+              <span>Somewhat Bikeable</span>
+              <span>Minimal bike infrastructure</span>
+            </div>
+          </div>
+        </div>
+        <div class="feedback">
+          <h3>Leave feedback about this</h3>
+          <form action="#">
+            <textarea name="feedback" placeholder="Comment *"></textarea>
+            <input class="main-input" type="text" placeholder="Name *">
+            <input class="main-input" type="email" placeholder="Email *">
+            <input type="checkbox">
+            <label for="check">Save my name, email, and website in this browser for the next time I comment.</label>
+            <input type="submit" value="Submit Review">
+          </form>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="side1">
+          <h3>Contact Listing Owner</h3>
+          <div class="img-box">
+              <img src="images/mike_hussy-1-150x150.jpg" alt="">
+            <div class="info">
+              <a href="#">Mike Hussy</a>
+              <span><i class="fa-solid fa-phone"></i> +442037691880</span>
+              <span><i class="fa-brands fa-whatsapp"></i> +442037691880</span>
+            </div>
+          </div>
+          <div class="site-btn">
+            <a href="#">Visit Website</a>
+          </div>
+          <div class="form">
+            <input class="main-input2" type="text" placeholder="Name *">
+            <input class="main-input2" type="email" placeholder="Email *">
+            <input class="main-input2" type="text" placeholder="Phone *">
+            <textarea class="main-input2" name="message" placeholder="Message"></textarea>
+            <input type="submit" value="Send Message">
+          </div>
+        </div>
+        <div class="side2">
+          <h3>Latest Listings</h3>
+          <div class="image-item">
+            <div class="image1">
+              <img src="images/david_lee7-400x240.jpeg" alt="">
+              <span>For Rent</span>
+            </div>
+            <div class="content">
+              <a href="#">Studio Home</a>
+              <h2>Triple Story House For Rent</h2>
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+              <div class="price">
+                <span>$13,500</span>
+                /yr
+              </div>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="image2">
+              <img src="images/mike_hussy5-400x240.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2>Brand New Shopping</h2>
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+              <div class="price">
+                <span>$30,000</span>
+                /total
+              </div>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="image2">
+              <img src="images/mike_hussy7-400x240.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2>Northwest Office Space</h2>
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+              <div class="price">
+                <span>$14,500</span>
+                /total
+              </div>
+            </div>
+          </div>
+          <div class="list-item">
+            <div class="image2">
+              <img src="images/mike_hussy8-400x240.jpg" alt="">
+            </div>
+            <div class="content">
+              <h2>Diamond Manco Apart</h2>
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+              <div class="price">
+                <span>$1,500</span>
+                /total
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side3">
+          <img src="images/sidebar-ad.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Area -->
+
+  <!-- Start Subscribe -->
+  <div class="subscribe">
+    <div class="container">
+      <div class="content">
+        <h2>Sign up for newsletter</h2>
+        <h4>Get latest news and update</h4>
+      </div>
+      <form action="#">
+        <input type="email" placeholder="Enter Your Email">
+        <input type="submit" value="subscribe">
+      </form>
+    </div>
+  </div>
+  <!-- End Subscribe -->
+
+  <!-- Start Light Footer -->
+  <div class="light-footer">
+    <div class="container">
+      <div class="col">
+        <img src="images/logo.svg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam</p>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Quick Links</h3>
+        <ul class="links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog & Articles</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Newsletter</h3>
+        <input type="email" placeholder="Enter Your Email">
+        <input type="submit" value="subscribe">
+        <span class="title">We never span you!</span>
+      </div>
+      <div class="col">
+        <h3>Contact</h3>
+        <div class="details"><i class="fa-solid fa-location-dot"></i>
+          <span>121 King St, Melbourne den 3000, Australia</span>
+        </div>
+        <div class="details"><i class="fa-solid fa-envelope"></i> <span>info@example.com</span></div>
+        <div class="details"><i class="fa-solid fa-phone"></i><span>+123-596-000</span></div>
+      </div>
+    </div>
+  </div>
+  <!-- End Light Footer -->
+
+  <!-- Start Second Light Footer -->
+  <div class="second-light-footer">
+    <div class="container">
+      <div class="policy">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <p class="copyright">Copyright © 2022 <span>RadiusTheme.</span> All Rights Reserved.</p>
+    </div>
+  </div>
+  <!-- End Second Light Footer -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

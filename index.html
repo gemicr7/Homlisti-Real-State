@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homlisti RealStat</title>
+    <link rel="shortcut icon" href="images/home_hand_3-1.svg" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Templete File -->
+    <link rel="stylesheet" href="css/homlisti.css" />
+    <!-- About Templete File -->
+    <link rel="stylesheet" href="css/about.css" />
+    <!-- Property Grid Templete File -->
+    <link rel="stylesheet" href="css/property grid.css" />
+    <!-- Single Property Templete File -->
+    <link rel="stylesheet" href="css/single-property.css" />
+    <!-- Pricing Templete File -->
+    <link rel="stylesheet" href="css/pricing.css">
+    <!-- Blog Templete File -->
+    <link rel="stylesheet" href="css/blog.css">
+    <!-- Contact Templete File -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Start Header -->
+  <div class="main-header">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" alt="" />
+        </a>
+        <nav>
+          <input type="checkbox" id="bar" />
+          <ul class="links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="property grid.html"
+                >Property<i class="fa-solid fa-angle-down"></i
+              ></a>
+              <!-- Start Megamenu -->
+              <div class="mega-menu">
+                <ul class="sub">
+                  <li><a href="property grid.html">Properties grid</a></li>
+                  <li>
+                    <a href="single-property.html">Single Property grid</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Megamenu -->
+            </li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-btn">
+          <div class="prop-btn">
+            <div class="icon">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+            <div class="text">
+              <a href="#">Add Property</a>
+            </div>
+          </div>
+          <div class="sign-in">
+            <i class="fa-regular fa-user"></i>
+          </div>
+          <label for="bar"><i class="fa-solid fa-bars"></i></label>
+        </div>
+      </div>
+  </div>
+  <!-- End Header -->
+
+  <!-- Start Landing -->
+  <div class="landing">
+      <img class="sh1" src="images/shape-home-5-4.svg" alt="" />
+      <img class="sh2" src="images/shape-home-5-5.svg" alt="" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1500"/>
+      <img class="sh3" src="images/shape-home-5-2.svg" alt="" />
+      <img class="sh4" src="images/home-5-main-banner-shaper-10.svg" alt="" />
+      <img
+        class="sh5"
+        src="images/home-5-main-banner-shaper-19-22.svg"
+        alt=""
+      />
+      <img class="sh6" src="images/home-5-main-banner.png" alt="" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500"/>
+      <div class="search-section" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+        <div class="content">
+          <h3>Properties</h3>
+          <h1>Find The Perfect Place to<br />Live With your Family</h1>
+        </div>
+        <div class="choose">
+          <a class="active" href="#">Sell</a>
+          <a href="#">Buy</a>
+          <a href="#">Rent</a>
+        </div>
+        <div class="search-box">
+          <input
+            class="text-input"
+            type="text"
+            placeholder="Enter Keyword here..."
+          />
+          <label for="menu">
+            <div class="location">
+              <a href="#">Select location</a>
+              <i class="fa-solid fa-caret-down"></i>
+              <input type="checkbox" id="menu" />
+              <div class="city-menu">
+                <span class="active">Alaska</span>
+                <span>New Jersey</span>
+                <span>Florida</span>
+                <span>NewYork</span>
+              </div>
+            </div>
+          </label>
+          <div class="buttons">
+            <div class="filter-icon">
+              <label for="filter"><i class="fas fa-sliders-h"></i></label>
+              <input type="checkbox" id="filter" />
+              <div class="filter-menu">
+                <div class="box">
+                  <div class="col">
+                    <div class="srv">
+                      <input id="tv" type="checkbox" />
+                      <label for="tv">TV Cable</label>
+                    </div>
+                    <div class="srv">
+                      <input id="swim" type="checkbox" />
+                      <label for="swim">Swimming Pool</label>
+                    </div>
+                    <div class="srv">
+                      <input id="lawn" type="checkbox" />
+                      <label for="lawn">Lawn</label>
+                    </div>
+                    <div class="button">
+                      <a href="#">Bedroom</a>
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="srv">
+                      <input id="air" type="checkbox" />
+                      <label for="air">Air Conditioning</label>
+                    </div>
+                    <div class="srv">
+                      <input id="laundry" type="checkbox" />
+                      <label for="laundry">Laundry</label>
+                    </div>
+                    <div class="srv">
+                      <input id="ref" type="checkbox" />
+                      <label for="ref">Refrigerator</label>
+                    </div>
+                    <div class="button">
+                      <a href="#">Bath</a>
+                      <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="srv">
+                      <input id="barb" type="checkbox" />
+                      <label for="barb">Barbeque</label>
+                    </div>
+                    <div class="srv">
+                      <input id="mic" type="checkbox" />
+                      <label for="mic">Microwave</label>
+                    </div>
+                    <div class="srv">
+                      <input id="Sauna" type="checkbox" />
+                      <label for="Sauna">Sauna</label>
+                    </div>
+                    <div class="range">
+                      <div class="text">
+                        <p>Sqft</p>
+                        <span class="number">0 _ 30 000</span>
+                      </div>
+                      <span class="line"></span>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="srv">
+                      <input id="gym" type="checkbox" />
+                      <label for="gym">Gym</label>
+                    </div>
+                    <div class="srv">
+                      <input id="out" type="checkbox" />
+                      <label for="out">Outdoor Shower</label>
+                    </div>
+                    <div class="srv">
+                      <input id="was" type="checkbox" />
+                      <label for="was">Washer</label>
+                    </div>
+                    <div class="range">
+                      <div class="price">
+                        <p>Price</p>
+                        <span class="number">$0 _ $5000</span>
+                      </div>
+                      <span class="line"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="icon-search">
+              <a href="#">search<i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="title">
+          <p>We’ve more than <span>54,000</span> apartments, place & plot.</p>
+          <img src="images/shape123.svg" alt="" />
+        </div>
+      </div>
+  </div>
+  <!-- End Landing -->
+
+  <!-- Start Features -->
+  <div class="start-features">
+      <div class="main-heading">
+        <span>our properties</span>
+        <h3>Properties</h3>
+        <h2>Our Featured Properties</h2>
+      </div>
+      <div class="container">
+        <div class="card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div class="image-box one">
+            <div class="overlay"></div>
+            <span class="rent">For Rent</span>
+            <i class="fa-solid fa-angle-left arrows"></i>
+            <i class="fa-solid fa-angle-right arrows"></i>
+            <p class="price">$13,500 <span>/yr</span></p>
+            <div class="fav-icons">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+            </div>
+          </div>
+          <div class="info">
+            <a href="#">Studio Home</a>
+            <h2>Triple Story House for Rent</h2>
+            <div class="address">
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+            </div>
+            <div class="room">
+              <span><i class="fa-solid fa-bed"></i>Beds 3</span>
+              <span><i class="fa-solid fa-shower"></i>Baths 2</span>
+              <span><i class="fa-solid fa-expand"></i>2000sqft</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+          <div class="image-box two">
+            <div class="overlay"></div>
+            <span class="rent">For Buy</span>
+            <i class="fa-solid fa-angle-left arrows"></i>
+            <i class="fa-solid fa-angle-right arrows"></i>
+            <p class="price">$30,000 <span>/total</span></p>
+            <div class="fav-icons">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+            </div>
+          </div>
+          <div class="info">
+            <a href="#">Apartments</a>
+            <h2>Brand New Shopping Mall for...</h2>
+            <div class="address">
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+            </div>
+            <div class="room">
+              <span><i class="fa-solid fa-bed"></i>Beds 3</span>
+              <span><i class="fa-solid fa-shower"></i>Baths 2</span>
+              <span><i class="fa-solid fa-expand"></i>2000sqft</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="2000">
+          <div class="image-box three">
+            <div class="overlay"></div>
+            <span class="rent">For Buy</span>
+            <i class="fa-solid fa-angle-left arrows"></i>
+            <i class="fa-solid fa-angle-right arrows"></i>
+            <p class="price">$14,500 <span>/total</span></p>
+            <div class="fav-icons">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+            </div>
+          </div>
+          <div class="info">
+            <a href="#">Apartments</a>
+            <h2>Northwest Office Space</h2>
+            <div class="address">
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+            </div>
+            <div class="room">
+              <span><i class="fa-solid fa-bed"></i>Beds 3</span>
+              <span><i class="fa-solid fa-shower"></i>Baths 2</span>
+              <span><i class="fa-solid fa-expand"></i>2000sqft</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+          <div class="image-box four">
+            <div class="overlay"></div>
+            <span class="rent">For Rent</span>
+            <span class="feat">Featured</span>
+            <i class="fa-solid fa-angle-left arrows"></i>
+            <i class="fa-solid fa-angle-right arrows"></i>
+            <p class="price">$1,500 <span>/Mo</span></p>
+            <div class="fav-icons">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+            </div>
+          </div>
+          <div class="info">
+            <a href="#">Villa</a>
+            <h2>Diamond Manco Apartment</h2>
+            <div class="address">
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+            </div>
+            <div class="room">
+              <span><i class="fa-solid fa-bed"></i>Beds 2</span>
+              <span><i class="fa-solid fa-shower"></i>Baths 2</span>
+              <span><i class="fa-solid fa-expand"></i>50sqft</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+          <div class="image-box five">
+            <div class="overlay"></div>
+            <span class="rent">For Buy</span>
+            <span class="bump">Bump Up</span>
+            <i class="fa-solid fa-angle-left arrows"></i>
+            <i class="fa-solid fa-angle-right arrows"></i>
+            <p class="price">$3,500 <span>/Mo</span></p>
+            <div class="fav-icons">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+            </div>
+          </div>
+          <div class="info">
+            <a href="#">Restaurant</a>
+            <h2>Affordable Green Villa House</h2>
+            <div class="address">
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+            </div>
+            <div class="room">
+              <span><i class="fa-solid fa-bed"></i>Beds 3</span>
+              <span><i class="fa-solid fa-shower"></i>Baths 3</span>
+              <span><i class="fa-solid fa-expand"></i>1200sqft</span>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="50" data-aos-duration="2000">
+          <div class="image-box six">
+            <div class="overlay"></div>
+            <span class="rent">For Buy</span>
+            <span class="top">Top</span>
+            <i class="fa-solid fa-angle-left arrows"></i>
+            <i class="fa-solid fa-angle-right arrows"></i>
+            <p class="price">$1,200 <span>/total</span></p>
+            <div class="fav-icons">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="#"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+            </div>
+          </div>
+          <div class="info">
+            <a href="#">Commercial</a>
+            <h2>Countryside Modern Lake View</h2>
+            <div class="address">
+              <span><i class="fa-solid fa-location-dot"></i>New Jersey</span>
+            </div>
+            <div class="room">
+              <span><i class="fa-solid fa-bed"></i>Beds 4</span>
+              <span><i class="fa-solid fa-shower"></i>Baths 2</span>
+              <span><i class="fa-solid fa-expand"></i>2000sqft</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="view-btn">
+        <a href="#">View All Properties</a>
+      </div>
+  </div>
+  <!-- End Features -->
+
+  <!-- Start About Us -->
+  <div class="about-us">
+      <img class="im1" src="images/home-5-about-right-image.svg" alt="" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500"/>
+      <img class="im2" src="images/home-5-about-shape-1.svg" alt="" />
+      <img class="im3" src="images/home-5-about-shape-2.svg" alt="" />
+      <img class="im4" src="images/home-5-about-shape-3.svg" alt="" />
+      <div class="container">
+        <div class="images" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+          <img src="images/home5-promo-image.png" alt="" />
+        </div>
+        <div class="article-section">
+          <div class="article-one" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+            <div class="heading">
+              <span>who we are</span>
+              <h3>About</h3>
+              <h2>We are Offering The Best Real Estate Property For All</h2>
+            </div>
+            <p>
+              Make a type specimen book. It has survived not only five
+              centuries, but also the leap into electronic typesetting,
+              remaining essentially electronic typesettings pecimen book
+            </p>
+          </div>
+          <div class="article-two" data-aos="fade-up" data-aos-delay="50" data-aos-duration="2000">
+            <div class="widget-wrap">
+              <div class="counter one">
+                <img src="images/home-5-about-icon-1.svg" alt="" />
+                <div class="number">
+                  <h3>55K</h3>
+                  <span>Satisfied People</span>
+                </div>
+              </div>
+              <div class="counter">
+                <img src="images/home-5-about-icon-2.svg" alt="" />
+                <div class="number">
+                  <h3>11K</h3>
+                  <span>Verified Property</span>
+                </div>
+              </div>
+            </div>
+            <p>
+              Make a type specimen book. It has survived not only five
+              centuries, but also the leap into electronic typesetting,
+              remaining essentially electronic typesettings pecimen book
+            </p>
+            <div class="contact-btn">
+              <a href="#">Contact With Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- End About Us -->
+
+  <!-- Start Property Type -->
+  <div class="property-type">
+    <div class="container">
+      <div class="heading">
+        <span>property type</span>
+        <h3>Categories</h3>
+        <h2>Let's Explore by Property Type</h2>
+      </div>
+      <div class="category">
+        <div class="box" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+          <div class="image">
+            <img src="images/p-cat-1.svg" alt="" />
+          </div>
+          <a href="#">Apartments</a>
+          <span>3 Listings</span>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1600">
+          <div class="image">
+            <img src="images/p-cat-2.svg" alt="" />
+          </div>
+          <a href="#">Villa</a>
+          <span>3 Listings</span>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1700">
+          <div class="image">
+            <img src="images/p-cat-3.svg" alt="" />
+          </div>
+          <a href="#">Commercial</a>
+          <span>2 Listings</span>
+        </div>
+        <div class="box" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1800">
+          <div class="image">
+            <img src="images/p-cat-4.svg" alt="" />
+          </div>
+          <a href="#">Office</a>
+          <span>3 Listings</span>
+        </div>
+        <div class="box"data-aos="fade-up" data-aos-delay="250" data-aos-duration="1900">
+          <div class="image">
+            <img src="images/p-cat-5.svg" alt="" />
+          </div>
+          <a href="#">Restaurant</a>
+          <span>2 Listings</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Property Type -->
+
+  <!-- Start Location -->
+  <div class="location">
+    <div class="main-heading">
+      <span>top areas</span>
+      <h3>Location</h3>
+      <h2>Find Your Neighborhood</h2>
+    </div>
+    <div class="container">
+      <div class="areas first">
+        <div class="box" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+          <img src="images/home5-location-1.png" alt="" />
+          <div class="content">
+            <a href="#">California</a>
+            <div class="loc-btn">
+              <span>01 Properties</span>
+            </div>
+          </div>
+        </div>
+        <div class="box" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+          <img src="images/home5-location-2.png" alt="" />
+          <div class="content">
+            <a href="#">Louisiana</a>
+            <div class="loc-btn">
+              <span>02 Properties</span>
+            </div>
+          </div>
+        </div>
+        <div class="box" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+          <img src="images/home5-location-3.png" alt="" />
+          <div class="content">
+            <a href="#">Kansas</a>
+            <div class="loc-btn">
+              <span>03 Properties</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="areas second">
+        <div class="box four" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+          <img src="images/home5-location-4.png" alt="" />
+          <div class="content">
+            <a href="#">Abilene</a>
+            <div class="loc-btn">
+              <span>04 Properties</span>
+            </div>
+          </div>
+        </div>
+        <div class="box five" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+          <img src="images/home5-location-5.png" alt="" />
+          <div class="content">
+            <a href="#">New York</a>
+            <div class="loc-btn">
+              <span>05 Properties</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End location -->
+
+  <!-- Start Video -->
+  <div class="video">
+    <div class="overlay"></div>
+    <div class="container" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+      <div class="tour-card">
+        <span class="pin">let's take a tour</span>
+        <h2>
+          Search Property Smarter,<br />
+          Quicker & Anywhere
+        </h2>
+        <div class="video-inner">
+          <div class="icon-right">
+            <a
+              href="https://www.youtube.com/watch?v=XHOmBV4js_E"
+              class="popup"
+              target="blank"
+            >
+              <i class="fa-solid fa-play"></i>
+              <span class="play"></span>
+            </a>
+          </div>
+          <div class="icon-left">
+            <a
+              href="https://www.youtube.com/watch?v=XHOmBV4js_E"
+              class="link"
+              target="blank"
+              >Play Video</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="text">
+        <h3>Property For All</h3>
+      </div>
+    </div>
+  </div>
+  <!-- End Video -->
+
+  <!-- Start Agents -->
+  <div class="agents">
+    <div class="main-heading">
+      <span>expertise is here</span>
+      <h3>Our Agents</h3>
+      <h2>Our Exclusive Agents</h2>
+    </div>
+    <div class="container">
+      <div class="agent-card" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+        <ul class="icons">
+          <li>
+            <a class="share" href="#"
+              ><i class="fa-solid fa-share-nodes"></i
+            ></a>
+            <ul class="social-icons">
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="box">
+          <div class="images">
+            <img src="images/rosy_janner.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h2>Rosy Janner</h2>
+            <h3>Sunshine</h3>
+            <span class="count">2 Listings</span>
+            <div class="support">
+              <i class="fa-solid fa-phone"></i>Call: <span> +4420376980</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="agent-card" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+        <ul class="icons">
+          <li>
+            <a class="share" href="#"
+              ><i class="fa-solid fa-share-nodes"></i
+            ></a>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+          </li>
+        </ul>
+        <div class="box">
+          <div class="images">
+            <img src="images/david_lee.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h2>David Lee</h2>
+            <h3>Sunshine</h3>
+            <span class="count">4 Listings</span>
+            <div class="support">
+              <i class="fa-solid fa-phone"></i>Call: <span> +1821371286</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="agent-card" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+        <ul class="icons">
+          <li>
+            <a class="share" href="#"
+              ><i class="fa-solid fa-share-nodes"></i
+            ></a>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+          </li>
+        </ul>
+        <div class="box">
+          <div class="images">
+            <img src="images/mike_hussy-1.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h2>Mike Hussy</h2>
+            <h3>Eco Builders</h3>
+            <span class="count">1 Listings</span>
+            <div class="support">
+              <i class="fa-solid fa-phone"></i>Call: <span> +4420376980</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="agent-card" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500">
+        <ul class="icons">
+          <li>
+            <a class="share" href="#"
+              ><i class="fa-solid fa-share-nodes"></i
+            ></a>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+          </li>
+        </ul>
+        <div class="box">
+          <div class="images">
+            <img src="images/tom_steven.jpg" alt="" />
+          </div>
+          <div class="info">
+            <h2>Tom Steven</h2>
+            <h3>Sweet Home</h3>
+            <span class="count">5 Listings</span>
+            <div class="support">
+              <i class="fa-solid fa-phone"></i>Call: <span> +1821371286</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Agents -->
+
+  <!-- Start Services -->
+  <div class="services">
+    <img class="sh1" src="images/home-5-service-shape-1.svg" alt="" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1500"/>
+    <img class="sh2" src="images/home-5-service-shape-2.svg" alt="" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1500"/>
+    <div class="service-wrap">
+      <div class="srv-box">
+        <img class="left" src="images/home-5-service.png" alt="" data-aos="fade-right" data-aos-delay="50" data-aos-duration="2000"/>
+        <div class="content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+          <h2>We're Providing the Best Real Estate Services</h2>
+          <p>
+            Make a type specimen book. It has survived not only five
+            centuries, but also the leap into.
+          </p>
+          <div class="info">
+            <div class="hot-line">
+              <div class="text">
+                <i class="fa-solid fa-phone"></i>
+                <div class="support">
+                  <span>Our Hot Line:</span>
+                  <span class="data">+88 1950 555 33</span>
+                </div>
+              </div>
+            </div>
+            <div class="hot-line">
+              <div class="text">
+                <i class="fa-solid fa-phone"></i>
+                <div class="support">
+                  <span>Mail Us:</span>
+                  <span class="data">info@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-btn">
+            <a href="#">Contact With Us</a>
+          </div>
+        </div>
+      </div>
+      <img class="right" src="images/home-5-service-2.png" alt="" data-aos="fade-left" data-aos-delay="50" data-aos-duration="2500"/>
+    </div>
+  </div>
+  <!-- End Services -->
+
+  <!-- Start Testimonials -->
+  <div class="testimonials">
+    <div class="container" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+      <i class="fa-solid fa-angle-left arrow"></i>
+      <i class="fa-solid fa-angle-right arrow"></i>
+      <img src="images/home5-team-2.png" alt="" />
+      <h3>Maria Zokatti</h3>
+      <span>SEO Marketing</span>
+      <q
+        >when an unknown printer took a galley of type and scrambled it to
+        make a type specimen bookhas survived not only five centuries, but
+        also the leap into electronic type setting emaining essentially
+        unchanged follower.</q
+      >
+    </div>
+  </div>
+  <!-- End Testimonials -->
+
+  <!-- Start Clients -->
+  <div class="clients">
+    <div class="container">
+      <img src="images/client-logo-1.svg" alt="" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500"/>
+      <img src="images/client-logo-3.svg" alt="" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500"/>
+      <img src="images/client-logo-4.svg" alt="" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500"/>
+      <img src="images/client-logo-5.svg" alt="" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500"/>
+      <img src="images/client-logo-6.svg" alt="" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1500"/>
+    </div>
+  </div>
+  <!-- End Clients -->
+
+  <!-- Start Register -->
+  <div class="register">
+    <img class="sh1" src="images/video-bg-2.svg" alt="" />
+    <img class="sh2" src="images/video-bg-2.svg" alt="" />
+    <img class="sh3" src="images/cta-parallax-1.png" alt="" />
+    <img class="sh4" src="images/cta-parallax-2.png" alt="" />
+    <img class="sh5" src="images/cta-parallax-3.png" alt="" />
+    <div class="container">
+      <img class="man" src="images/cta-man.png" alt="" />
+      <div class="text">
+        <h3>Become a Real Estate Agent</h3>
+        <span
+          >We only work with the best companies around the globe to
+          survey</span
+        >
+      </div>
+      <div class="reg-btn">
+        <a href="#">Register Now</a>
+      </div>
+    </div>
+  </div>
+  <!-- End Register -->
+
+  <!-- Start Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="col">
+        <img src="images/logo_light.svg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam
+        </p>
+        <ul class="social-icons">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Quick Links</h3>
+        <ul class="links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog & Articles</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Newsletter</h3>
+        <input type="email" placeholder="Enter Your Email" />
+        <input type="submit" value="subscribe" />
+        <span class="title">We never span you!</span>
+      </div>
+      <div class="col">
+        <h3>Contact</h3>
+        <div class="details">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>121 King St, Melbourne den 3000, Australia</span>
+        </div>
+        <div class="details">
+          <i class="fa-solid fa-envelope"></i> <span>info@example.com</span>
+        </div>
+        <div class="details">
+          <i class="fa-solid fa-phone"></i><span>+123-596-000</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+  
+  <!-- Start Second Footer -->
+  <div class="second-footer">
+    <div class="container">
+      <div class="policy">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <p class="copyright">
+        Copyright © 2022 <span>RadiusTheme.</span> All Rights Reserved.
+      </p>
+    </div>
+  </div>
+  <!-- End Second Footer -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
